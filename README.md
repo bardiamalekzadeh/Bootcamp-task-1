@@ -1,20 +1,23 @@
-# FrontHooks Bootcamp - Task 1: Card Panel
+# 🟦 Card Panel Project
 
-This is my first task from the FrontHooks frontend bootcamp.
+## 📦 About the Project
 
-The project is still **in progress** — I'm planning to make a few minor updates based on mentor feedback soon.  
-Once completed, this notice will be removed.
+🧩 This is my first task from the **FrontendHawks Bootcamp**.  
+The task was to create a **Card Panel**, and as you can see, I designed it with separate colors for each section.  
 
-## About the Project 📂
-This task was about creating a card panel layout.  
-I decided to add my own touch by using color variations for the cards.  
-I’m primarily focused on frontend development, not UI/UX design — so the color choices might not be perfect.  
-Still, I wanted to explore beyond the default theme and came up with this idea myself.
+🎨 I must admit I'm not a designer — I'm a frontend developer — so if some of the colors seem to clash, I apologize! The idea to use color separation was entirely mine, even though the original task asked for a normal theme.
 
-Built with  
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="24px" title="HTML5"/>  
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="24px" title="CSS3"/>  
-following the **BEM naming convention**.  
-I tried to apply everything I've learned so far in the bootcamp's HTML/CSS modules.
+🛠 The project is developed using **HTML** and **CSS**, and I followed the **BEM** methodology.  
+I’ve tried to apply everything I learned throughout the HTML & CSS phase of the bootcamp.
 
-Thanks for checking out the project!
+🚧 **Note:** This project is not finished yet. I will keep updating and improving it over time.
+
+Thanks for checking out my project! 😊  
+More projects are coming soon...
+
+---
+
+## 🚀 Skills & Technologies
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
