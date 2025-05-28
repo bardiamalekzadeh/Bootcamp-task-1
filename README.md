@@ -11,7 +11,10 @@ I decided to add my own touch by using color variations for the cards.
 I’m primarily focused on frontend development, not UI/UX design — so the color choices might not be perfect.  
 Still, I wanted to explore beyond the default theme and came up with this idea myself.
 
-Built with **💻 HTML** and **🎨 CSS**, following the **BEM naming convention**.  
+Built with  
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="24px" title="HTML5"/>  
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="24px" title="CSS3"/>  
+following the **BEM naming convention**.  
 I tried to apply everything I've learned so far in the bootcamp's HTML/CSS modules.
 
 Thanks for checking out the project!
