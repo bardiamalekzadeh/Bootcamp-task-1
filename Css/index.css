@@ -1,0 +1,209 @@
+@import url(/Css/fotn.css);
+
+/* reset */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: Vazirmatn;
+}
+
+/* body */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: Vazirmatn;
+  font-size: 1.2rem;
+  min-height: 100vh;
+  background: #a4b465;
+  background: linear-gradient(
+    135deg,
+    rgba(164, 180, 101, 1) 0%,
+    rgba(210, 208, 160, 1) 35%,
+    rgba(245, 236, 213, 1) 100%
+  );
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* color */
+
+:root {
+  --color--headtext: #473828;
+  --color--title: #6c584c;
+  --color--number: #ffff;
+  --color--discrib: #a98467;
+  --color--button: #adc178;
+  --color--box: #adc178;
+  --color--panel: #dde5b4;
+}
+
+/* body */
+
+h2 {
+  font-size: 1.8rem;
+}
+
+span {
+  font-size: 1.6rem;
+}
+
+/* header title */
+
+.header__title {
+  display: flex;
+  justify-content: center;
+  color: var(--color--headtext);
+}
+
+/* container */
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* Panel control */
+
+.panel {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 1rem;
+}
+
+.panel__subject {
+  margin: 1rem 1rem;
+  border-radius: 20px;
+  background-color: var(--color--panel);
+  max-width: 400px;
+  height: auto;
+  box-shadow: 10px 10px 5px var(--color--box);
+}
+/* Media */
+
+@media screen and (min-width: 768px) {
+  .panel {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  button {
+    padding: 1.5rem 1.8rem !important;
+  }
+
+  .header__title {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .panel__subject {
+    margin: 0;
+  }
+  .header__title {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 2rem;
+  }
+  button {
+    padding: 1.5rem 1.8rem !important ;
+  }
+  .panel {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+  }
+  .container {
+    max-width: 1000px;
+  }
+}
+
+/* panel title */
+
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.5rem 1.5rem;
+  color: var(--color--title);
+}
+
+.date {
+  margin-right: auto;
+  margin-left: 1rem;
+}
+
+/* box */
+.box {
+  outline: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.box.primary {
+  background-color: var(--color--box);
+  color: var(--color--number);
+}
+
+.box.secondary {
+  background-image: url(/Assests/Images/red-pfp-2695.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+/*  */
+.panel--section {
+  margin-right: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.title__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* panel--description */
+
+.description {
+  margin: 1.5rem 1.5rem;
+  color: var(--color--discrib);
+}
+
+/* fotter */
+
+.fotter {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.5rem 1.5rem;
+  color: var(--color--title);
+}
+
+/* panel button */
+
+button {
+  margin-right: auto;
+  padding: 1.7rem 0.6rem;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--color--button);
+  color: white;
+}
